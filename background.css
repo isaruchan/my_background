@@ -1,0 +1,17 @@
+/* Vùng editor chính */
+.monaco-editor .overflow-guard {
+  background: url("https://github.com/isaruchan/my_background/blob/main/editor.jpg?raw=true") center center / cover no-repeat !important;
+  opacity: 0.1;
+}
+
+/* Vùng sidebar bên trái */
+.sidebar {
+  background: url("https://github.com/isaruchan/my_background/blob/main/panel.jpg?raw=true") left center / cover no-repeat !important;
+  opacity: 0.08;
+}
+
+/* Vùng panel dưới (terminal, debug console…) */
+.panel {
+  background: url("https://github.com/isaruchan/my_background/blob/main/terminal.jpg?raw=true") right bottom / cover no-repeat !important;
+  opacity: 0.06;
+}
