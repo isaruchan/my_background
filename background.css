@@ -1,17 +1,30 @@
-/* Vùng editor chính */
+/* VÙNG EDITOR CHÍNH */
 .monaco-editor .overflow-guard {
-  background: url("https://github.com/isaruchan/my_background/blob/main/editor.jpg?raw=true") center center / cover no-repeat !important;
-  opacity: 0.1;
+  background-image: url("https://github.com/isaruchan/my_background/blob/main/editor.jpg?raw=true") !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  opacity: 0.1 !important;
 }
 
-/* Vùng sidebar bên trái */
-.sidebar {
-  background: url("https://github.com/isaruchan/my_background/blob/main/panel.jpg?raw=true") left center / cover no-repeat !important;
-  opacity: 0.08;
+/* VÙNG SIDEBAR (BÊN TRÁI) */
+.sidebar,
+.sidebar .composite.title,
+.sidebar .composite.title .title-label {
+  background-image: url("https://github.com/isaruchan/my_background/blob/main/panel.jpg?raw=true") !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  opacity: 0.1 !important;
 }
 
-/* Vùng panel dưới (terminal, debug console…) */
-.panel {
-  background: url("https://github.com/isaruchan/my_background/blob/main/terminal.jpg?raw=true") right bottom / cover no-repeat !important;
-  opacity: 0.06;
+/* VÙNG PANEL DƯỚI (TERMINAL, DEBUG CONSOLE…) */
+.panel,
+.panel .panel-content,
+.terminal-outer-container {
+  background-image: url("https://github.com/isaruchan/my_background/blob/main/terminal.jpg?raw=true") !important;
+  background-position: center top !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  opacity: 0.1 !important;
 }
